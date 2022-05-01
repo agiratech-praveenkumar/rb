@@ -130,6 +130,24 @@ puts "Hello" if true
 puts "World" unless false
 ```
 
+### Case Statement 
+This is like Switch Case in some other languages.
+```ruby
+case capacity = 10
+when 0
+  "You ran out of gas."
+when 1..20
+  "The tank is almost empty. Quickly, find a gas station!"
+when 21..70
+  "You should be ok for now."
+when 71..100
+  "The tank is almost full."
+else
+  "capacity is not in range."
+end
+```
+
+
 
 
 
