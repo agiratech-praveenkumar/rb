@@ -117,7 +117,8 @@ else
 end
 ```
 
-### Modifier if and unless 
+### Modifier if and unless
+----
 
 if and unless can also be used to modify an expression. When used as a modifier the left-hand side is the “then” expression and the right-hand side is the “test” expression
 
@@ -131,6 +132,7 @@ puts "World" unless false
 ```
 
 ### Case Statement 
+----
 This is like Switch Case in some other languages.
 ```ruby
 case capacity = 10
