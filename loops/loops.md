@@ -9,6 +9,7 @@ Type of Loops
 - until
 - upto and times
 - each
+- unless
 
 
 ### For loop
